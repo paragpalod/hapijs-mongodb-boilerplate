@@ -4,7 +4,7 @@
 
 1. Langauge :- Javascript
 2. Envirnoment :- Node Js
-3. Framework :- HapiJs
+3. Framework :- Hapi Js
 4. API Testing :- Hapi Swagger
 
 
