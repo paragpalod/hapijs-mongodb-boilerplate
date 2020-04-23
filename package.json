@@ -1,0 +1,29 @@
+{
+  "name": "nodehapimongo",
+  "version": "1.0.0",
+  "description": "Javascript-NodeJs-HapiJs-MongoDb-Api",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "lint": "eslint server/**/* --ext .js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paragpalod/nodejs-hapijs-mongodb-api.git"
+  },
+  "author": "Parag Palod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paragpalod/nodejs-hapijs-mongodb-api/issues"
+  },
+  "homepage": "https://github.com/paragpalod/nodejs-hapijs-mongodb-api#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.3"
+  }
+}
