@@ -2,10 +2,12 @@
   "name": "nodehapimongo",
   "version": "1.0.0",
   "description": "Javascript-NodeJs-HapiJs-MongoDb-Api",
-  "main": "server/index.js",
+  "main": "server",
   "scripts": {
-    "start": "nodemon server/index.js",
-    "lint": "eslint server/**/* --ext .js --fix"
+    "start": "node server",
+    "dev": "nodemon server & eslint server server/**/*",
+    "lint": "eslint server server/**/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
