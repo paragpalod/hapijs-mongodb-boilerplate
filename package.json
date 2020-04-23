@@ -19,6 +19,30 @@
     "url": "https://github.com/paragpalod/nodejs-hapijs-mongodb-api/issues"
   },
   "homepage": "https://github.com/paragpalod/nodejs-hapijs-mongodb-api#readme",
+  "eslintConfig": {
+    "env": {
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": [
+      "standard"
+    ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+      "ecmaVersion": 2019
+    },
+    "rules": {
+      "semi": ["off", "always"],
+      "no-unused-vars": ["warn", {
+        "vars": "all",
+        "args": "all"
+      }]
+    }
+  },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
