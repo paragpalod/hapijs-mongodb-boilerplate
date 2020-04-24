@@ -36,15 +36,28 @@
       "ecmaVersion": 2019
     },
     "rules": {
-      "no-trailing-spaces": ["error", { "skipBlankLines": true , "ignoreComments": true}],
-      "semi": ["off", "always"],
-      "no-unused-vars": ["warn", {
-        "vars": "all",
-        "args": "all"
-      }]
+      "no-trailing-spaces": [
+        "error",
+        {
+          "skipBlankLines": true,
+          "ignoreComments": true
+        }
+      ],
+      "semi": [
+        "off",
+        "always"
+      ],
+      "no-unused-vars": [
+        "warn",
+        {
+          "vars": "all",
+          "args": "all"
+        }
+      ]
     }
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
