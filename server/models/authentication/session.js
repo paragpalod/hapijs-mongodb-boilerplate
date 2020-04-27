@@ -10,9 +10,6 @@ module.exports = function (Schema) {
     userID: {
       type: Schema.Types.ObjectId,
       required: true
-    },
-    metadata: {
-      type: String
     }
   }, { timestamps: true });
 

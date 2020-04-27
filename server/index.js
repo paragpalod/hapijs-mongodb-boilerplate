@@ -1,21 +1,16 @@
-const cluster = require('cluster')
-const numCPUs = require('os').cpus().length
+require('dotenv').config();// comment this while deploying to production
+const Glue = require('@hapi/glue');
+const { manifest } = require('./config/server');
 
-function startServer () {
+const startServer = async function () {
   try {
-    // using all the cpu your machine has to offer to maximize cpu usage and to increase efficiency
-    for (let i = 0; i < numCPUs; i++) {
-      cluster.fork()
-    }
-    cluster.on('online', (worker) => {
-      console.log(`worker is online, Worker Id: ${worker.id}`)
-    })
-    cluster.on('exit', (worker) => {
-      console.log(`worker ${worker.process.pid} died`)
-      cluster.fork()
-    })
+    const server = await Glue.compose(manifest, { relativeTo: __dirname });
+    await server.start();
+    console.log('Server is listening on ' + server.info.uri.toLowerCase());
   } catch (Exception) {
-    console.log('Server start error: ', Exception)
-    process.exit(1)
+    console.log('server.register Exception:', Exception);
+    process.exit(1);
   }
-}
+};
+
+startServer();
