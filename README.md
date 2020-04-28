@@ -15,41 +15,31 @@
 3. add .env file in your project after clonning the project and follow the instruction provided in env.example.txt
 
 ## Folder Structure and Explaination
-
+```bash
 .
 ├── server
 |   ├── authStrategy
 |   |   ├── auth.js
 |   |   └── developerauth.js
-|   |
 |   ├── config
 |   |   ├── index.js
 |   |   └── server.js
-|   |
 |   ├── models
 |   |   ├── administrator
 |   |   |   └── user.js
-|   |   | 
 |   |   ├── authetication
 |   |   |   └── session.js
-|   |   |   
 |   |   └── index.js
-|   |
 |   ├── routes
 |   |   ├── api
 |   |   |   ├── administrator
 |   |   |   |   └── user.js
-|   |   |   |
 |   |   |   └── authetication
 |   |   |       └── auth.js
-|   |   |   
 |   |   └── index.js
-|   |
 |   ├── utils
 |   |   └──
-|   |
 |   └── index.js
-|
 ├── .editorconfig
 ├── .gitignore
 ├── env.example.txt
@@ -57,3 +47,4 @@
 ├── pakage-lock.json
 ├── package.json
 └── README
+```
