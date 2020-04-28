@@ -6,7 +6,7 @@
 2. Envirnoment :- Node Js
 3. Framework :- Hapi Js ( https://hapi.dev/api/?v=18.4.1 )
 4. Manual API Testing :- Hapi Swagger ( https://www.npmjs.com/package/hapi-swagger )
-5. Email Integgration: Nodemailer ( https://www.npmjs.com/package/nodemailer )
+5. Email Integration: Nodemailer ( https://www.npmjs.com/package/nodemailer )
 
 ## Envirnoment Setup
 
