@@ -1,6 +1,6 @@
 # Javascript NodeJs HapiJs MongoDb Boilerplate
 
-###### This is a server side repository created using Hapi Js to reduce the initial server side project configuration and gt this started fast use this repository as boilerplate for your application
+This is a server side repository created using Hapi Js to reduce the initial server side project configuration and gt this started fast use this repository as boilerplate for your application
 
 ## Info
 
