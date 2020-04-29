@@ -6,9 +6,9 @@ This is a server side repository created using Hapi Js to reduce the initial ser
 
 1. Langauge :- Javascript
 2. Envirnoment :- Node Js
-3. Framework :- Hapi Js ( https://hapi.dev/api/?v=18.4.1 )
-4. Manual API Testing :- Hapi Swagger ( https://www.npmjs.com/package/hapi-swagger )
-5. Email Integration: Nodemailer ( https://www.npmjs.com/package/nodemailer )
+3. Framework :- [Hapi Js]( https://hapi.dev/api/?v=18.4.1 )
+4. Manual API Testing :- [Hapi Swagger]( https://www.npmjs.com/package/hapi-swagger )
+5. Email Integration: [Nodemailer]( https://www.npmjs.com/package/nodemailer )
 
 ## Envirnoment Setup
 
@@ -64,7 +64,7 @@ This is a server side repository created using Hapi Js to reduce the initial ser
 
 **./server/routes**:- this folder contails APIs I havee created the some sample APIs to get you started and to tell you how to add API you just add the files in repective folder you can create new folders if you like dont worry about importing any files all the importing is handled in index,js file just follow the basic structure
 
-**./server/utils**:- This folder will contain all the third party integration functions or functions you used frequently currently it has email.js in which i have provided a normal usage of mail using nodemailer you can add another email configuration if you want. For email purpose i used nodemailer ( https://www.npmjs.com/package/nodemailer )
+**./server/utils**:- This folder will contain all the third party integration functions or functions you used frequently currently it has email.js in which i have provided a normal usage of mail using nodemailer you can add another email configuration if you want. For email purpose i used [nodemailer]( https://www.npmjs.com/package/nodemailer )
 
 **./server/index.js**:- this file is entry point for application everythinsg is integrated here
 
