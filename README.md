@@ -41,7 +41,7 @@ This is a server side repository created using Hapi Js to reduce the initial ser
 |   |   |       └── auth.js
 |   |   └── index.js
 |   ├── utils
-|   |   └──
+|   |   └── email.js
 |   └── index.js
 ├── .editorconfig
 ├── .gitignore
