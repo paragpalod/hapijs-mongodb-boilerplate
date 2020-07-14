@@ -70,6 +70,7 @@
   },
   "dependencies": {
     "@hapi/basic": "^6.0.0",
+    "@hapi/joi": "^15.1.1",
     "@hapi/glue": "^7.0.0",
     "@hapi/good": "^8.2.0",
     "@hapi/good-console": "^8.1.0",
