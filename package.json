@@ -82,7 +82,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.6.4",
     "multi-factor-authentication": "^1.0.1",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "vision": "^5.4.4",
     "white-out": "^2.0.2"
   },
